@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset = "utf-8"/>
+		<title>Open Canvas</title>
+	</head>
+
+	<body onload = "main()">
+		<canvas id = "webgl" width = "400" height = "400">
+		</canvas>
+  		<div style="position:absolute;top:10%;left:60%;width:48px;height:30px;background:yellow;"
+    		  id="black" onclick="move(this)">MOVE</div>
+  		<div style="position:absolute;top:20%;left:60%;width:58px;height:30px;background:yellow;"
+    		  id="green" onclick="rotate(this)">ROTATE</div>
+
+		<script src = "webgl-utils.js"></script>
+		<script src = "webgl-debug.js"></script>
+		<script src = "cuon-utils.js"></script>
+		<script src = "cuon-matrix.js"></script>
+		<script src = "WebGLDraw.js"></script>
+	</body>
+</html>
